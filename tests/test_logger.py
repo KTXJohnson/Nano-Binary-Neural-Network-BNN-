@@ -59,21 +59,33 @@ class TestLogger(unittest.TestCase):
 
     def test_logging_methods(self):
         """Test the logging methods."""
-        # Mock the underlying logger to check that methods are called
-        self.logger.logger = MagicMock()
+        # Save the original logger and its handlers
+        original_logger = self.logger.logger
+        original_handlers = list(original_logger.handlers)
 
-        # Test each logging method
-        self.logger.info("Info message")
-        self.logger.logger.info.assert_called_once_with("Info message")
+        try:
+            # Mock the underlying logger to check that methods are called
+            self.logger.logger = MagicMock()
 
-        self.logger.warning("Warning message")
-        self.logger.logger.warning.assert_called_once_with("Warning message")
+            # Test each logging method
+            self.logger.info("Info message")
+            self.logger.logger.info.assert_called_once_with("Info message")
 
-        self.logger.error("Error message")
-        self.logger.logger.error.assert_called_once_with("Error message")
+            self.logger.warning("Warning message")
+            self.logger.logger.warning.assert_called_once_with("Warning message")
 
-        self.logger.debug("Debug message")
-        self.logger.logger.debug.assert_called_once_with("Debug message")
+            self.logger.error("Error message")
+            self.logger.logger.error.assert_called_once_with("Error message")
+
+            self.logger.debug("Debug message")
+            self.logger.logger.debug.assert_called_once_with("Debug message")
+        finally:
+            # Close the original handlers before restoring
+            for handler in original_handlers:
+                handler.close()
+
+            # Restore the original logger
+            self.logger.logger = original_logger
 
     def test_log_benchmark(self):
         """Test logging benchmarks."""
