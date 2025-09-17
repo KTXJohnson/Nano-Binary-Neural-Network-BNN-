@@ -25,7 +25,7 @@
         "max_time": 0.0,
         "norm": 0.0
       },
-      "analysis_time": 0.012057304382324219
+      "analysis_time": 0.009218454360961914
     },
     {
       "base_word": "word",
@@ -47,7 +47,7 @@
         "max_time": 0.0,
         "norm": 0.0
       },
-      "analysis_time": 0.00813913345336914
+      "analysis_time": 0.007140636444091797
     },
     {
       "base_word": "text",
@@ -69,7 +69,7 @@
         "max_time": 0.0,
         "norm": 0.0
       },
-      "analysis_time": 0.010942697525024414
+      "analysis_time": 0.00909423828125
     },
     {
       "base_word": "binary",
@@ -95,7 +95,7 @@
         "max_time": 0.0,
         "norm": 0.0
       },
-      "analysis_time": 0.010268449783325195
+      "analysis_time": 0.008043289184570312
     },
     {
       "base_word": "network",
@@ -123,10 +123,10 @@
         "max_time": 0.0,
         "norm": 0.0
       },
-      "analysis_time": 0.00897836685180664
+      "analysis_time": 0.008991718292236328
     }
   ],
-  "total_time": 0.22703909873962402,
-  "elapsed_time": 0.2290363311767578,
-  "timestamp": "2025-09-17T17:14:31.591706"
+  "total_time": 0.2062380313873291,
+  "elapsed_time": 0.20726299285888672,
+  "timestamp": "2025-09-17T17:32:21.970946"
 }
