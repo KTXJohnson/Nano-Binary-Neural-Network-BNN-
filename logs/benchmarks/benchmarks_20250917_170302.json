@@ -1,0 +1,284 @@
+{
+  "training": [
+    {
+      "text_length": 230,
+      "bigrams": 222,
+      "max_co_occurrence": 12.0,
+      "training_time": 0.20450329780578613,
+      "elapsed_time": 0.22065281867980957,
+      "timestamp": "2025-09-17T17:03:02.518663"
+    }
+  ],
+  "wave_computation": [
+    {
+      "num_frequencies": 5,
+      "min_frequency": 8.724645614624023,
+      "max_frequency": 11.072278022766113,
+      "computation_time": 0.026332855224609375,
+      "elapsed_time": 0.24810266494750977,
+      "timestamp": "2025-09-17T17:03:02.546112"
+    },
+    {
+      "num_frequencies": 5,
+      "min_frequency": 8.724645614624023,
+      "max_frequency": 11.072278022766113,
+      "computation_time": 0.0019960403442382812,
+      "elapsed_time": 0.25009870529174805,
+      "timestamp": "2025-09-17T17:03:02.548109"
+    },
+    {
+      "num_frequencies": 4,
+      "min_frequency": 8.724645614624023,
+      "max_frequency": 13.166377067565918,
+      "computation_time": 0.001051187515258789,
+      "elapsed_time": 0.2935483455657959,
+      "timestamp": "2025-09-17T17:03:02.591558"
+    },
+    {
+      "num_frequencies": 4,
+      "min_frequency": 8.724645614624023,
+      "max_frequency": 13.166377067565918,
+      "computation_time": 0.0010037422180175781,
+      "elapsed_time": 0.2945520877838135,
+      "timestamp": "2025-09-17T17:03:02.592562"
+    },
+    {
+      "num_frequencies": 4,
+      "min_frequency": 8.916426658630371,
+      "max_frequency": 13.454509735107422,
+      "computation_time": 0.0009963512420654297,
+      "elapsed_time": 0.3005537986755371,
+      "timestamp": "2025-09-17T17:03:02.598564"
+    },
+    {
+      "num_frequencies": 4,
+      "min_frequency": 8.916426658630371,
+      "max_frequency": 13.454509735107422,
+      "computation_time": 0.0010225772857666016,
+      "elapsed_time": 0.3015763759613037,
+      "timestamp": "2025-09-17T17:03:02.599586"
+    },
+    {
+      "num_frequencies": 6,
+      "min_frequency": 8.176675796508789,
+      "max_frequency": 13.749120712280273,
+      "computation_time": 0.0009989738464355469,
+      "elapsed_time": 0.30878710746765137,
+      "timestamp": "2025-09-17T17:03:02.606797"
+    },
+    {
+      "num_frequencies": 6,
+      "min_frequency": 8.176675796508789,
+      "max_frequency": 13.749120712280273,
+      "computation_time": 0.0009968280792236328,
+      "elapsed_time": 0.309783935546875,
+      "timestamp": "2025-09-17T17:03:02.607794"
+    },
+    {
+      "num_frequencies": 7,
+      "min_frequency": 8.916426658630371,
+      "max_frequency": 13.166377067565918,
+      "computation_time": 0.0010230541229248047,
+      "elapsed_time": 0.31676602363586426,
+      "timestamp": "2025-09-17T17:03:02.614776"
+    },
+    {
+      "num_frequencies": 7,
+      "min_frequency": 8.916426658630371,
+      "max_frequency": 13.166377067565918,
+      "computation_time": 0.0,
+      "elapsed_time": 0.31778669357299805,
+      "timestamp": "2025-09-17T17:03:02.615796"
+    }
+  ],
+  "experiment": [
+    {
+      "experiment_name": "nano_wave_experiment",
+      "text_length": 230,
+      "num_word_pairs": 5,
+      "word_pair_results": [
+        {
+          "base_word": "model",
+          "context_word": "model",
+          "base_frequencies": [
+            10.602309226989746,
+            11.072278022766113,
+            8.724645614624023,
+            8.916426658630371,
+            10.375298500061035
+          ],
+          "context_frequencies": [
+            10.602309226989746,
+            11.072278022766113,
+            8.724645614624023,
+            8.916426658630371,
+            10.375298500061035
+          ],
+          "interference_metrics": {
+            "max_abs": 0.0,
+            "max_time": 0.0,
+            "norm": 0.0
+          },
+          "analysis_time": 0.07184433937072754
+        },
+        {
+          "base_word": "word",
+          "context_word": "word",
+          "base_frequencies": [
+            13.166377067565918,
+            11.072278022766113,
+            11.815691947937012,
+            8.724645614624023
+          ],
+          "context_frequencies": [
+            13.166377067565918,
+            11.072278022766113,
+            11.815691947937012,
+            8.724645614624023
+          ],
+          "interference_metrics": {
+            "max_abs": 0.0,
+            "max_time": 0.0,
+            "norm": 0.0
+          },
+          "analysis_time": 0.00706028938293457
+        },
+        {
+          "base_word": "text",
+          "context_word": "text",
+          "base_frequencies": [
+            12.33935260772705,
+            8.916426658630371,
+            13.454509735107422,
+            12.33935260772705
+          ],
+          "context_frequencies": [
+            12.33935260772705,
+            8.916426658630371,
+            13.454509735107422,
+            12.33935260772705
+          ],
+          "interference_metrics": {
+            "max_abs": 0.0,
+            "max_time": 0.0,
+            "norm": 0.0
+          },
+          "analysis_time": 0.00823068618774414
+        },
+        {
+          "base_word": "binary",
+          "context_word": "binary",
+          "base_frequencies": [
+            8.35435676574707,
+            9.722978591918945,
+            10.835294723510742,
+            8.176675796508789,
+            11.815691947937012,
+            13.749120712280273
+          ],
+          "context_frequencies": [
+            8.35435676574707,
+            9.722978591918945,
+            10.835294723510742,
+            8.176675796508789,
+            11.815691947937012,
+            13.749120712280273
+          ],
+          "interference_metrics": {
+            "max_abs": 0.0,
+            "max_time": 0.0,
+            "norm": 0.0
+          },
+          "analysis_time": 0.006982326507568359
+        },
+        {
+          "base_word": "network",
+          "context_word": "network",
+          "base_frequencies": [
+            10.835294723510742,
+            8.916426658630371,
+            12.33935260772705,
+            13.166377067565918,
+            11.072278022766113,
+            11.815691947937012,
+            10.152490615844727
+          ],
+          "context_frequencies": [
+            10.835294723510742,
+            8.916426658630371,
+            12.33935260772705,
+            13.166377067565918,
+            11.072278022766113,
+            11.815691947937012,
+            10.152490615844727
+          ],
+          "interference_metrics": {
+            "max_abs": 0.0,
+            "max_time": 0.0,
+            "norm": 0.0
+          },
+          "analysis_time": 0.007981538772583008
+        }
+      ],
+      "total_time": 0.30760836601257324,
+      "elapsed_time": 0.3227519989013672,
+      "timestamp": "2025-09-17T17:03:02.620762"
+    }
+  ],
+  "final_metrics": [
+    {
+      "interference_model vs training model": {
+        "max_abs": 0.0,
+        "max_time": 0.0,
+        "norm": 0.0
+      },
+      "interference_word vs sample word": {
+        "max_abs": 0.0,
+        "max_time": 0.0,
+        "norm": 0.0
+      },
+      "interference_text vs training text": {
+        "max_abs": 0.0,
+        "max_time": 0.0,
+        "norm": 0.0
+      },
+      "interference_binary vs nano binary": {
+        "max_abs": 0.0,
+        "max_time": 0.0,
+        "norm": 0.0
+      },
+      "interference_network vs neural network": {
+        "max_abs": 0.0,
+        "max_time": 0.0,
+        "norm": 0.0
+      },
+      "total_runtime": 0.32377195358276367,
+      "timestamp": "2025-09-17T17:03:02.621782"
+    }
+  ],
+  "summary": {
+    "total_runtime": 0.33999037742614746,
+    "timestamp": "2025-09-17T17:03:02.622779",
+    "categories": [
+      "training",
+      "wave_computation",
+      "experiment",
+      "final_metrics"
+    ],
+    "category_counts": {
+      "training": 1,
+      "wave_computation": 10,
+      "experiment": 1,
+      "final_metrics": 1
+    },
+    "system_info": {
+      "cpu_count": 4,
+      "memory_total": 17029619712,
+      "memory_available": 8227799040
+    },
+    "pytorch_info": {
+      "version": "2.7.0+cpu",
+      "cuda_available": false
+    }
+  }
+}
